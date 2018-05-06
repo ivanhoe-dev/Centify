@@ -24,6 +24,7 @@ $("#YouElementToAlign).centify({
 ```
 ## Documentation
 Parameters:
+
 | Parameters | Usages | Default | Values |
 | ------------- | ------------- | ------------- | ------------- |
 | align_element_x  | Align the DOM horizontally  | center | left,right,center |
