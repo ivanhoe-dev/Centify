@@ -1,0 +1,112 @@
+<html>
+<head>
+	<title>
+		Centify - Demostration
+	</title>
+	<style>
+	body{
+		background-color:#34495e;
+		color:white;
+		font-family: "Arial";
+	}
+	h1{
+		margin:20px;
+		z-index:10;
+		background-color:white;
+		color:#34495e;
+		padding:5px;
+		width:300px;
+	}
+	</style>
+	<style>
+	.div1, .div2, .div3, .div4, .div5{
+		width:100px;
+		height:100px;
+		background-color:#9b59b6;
+	}
+	.div6{
+		z-index:-1;
+		width:750px;
+		height:750px;
+		background-color:#e74c3c;
+	}
+	.div7{
+		width:450px;
+		height:450px;
+		background-color:#e67e22;
+	}
+	.div8{
+		width:200px;
+		height:200px;
+		background-color:#f1c40f;
+	}
+	.div9{
+		width:100px;
+		height:100px;
+		background-color:#2ecc71;
+	}
+</style>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="centify.js"></script>
+<script>
+	$(function(){
+		$(".div1").centify();
+		$(".div2").centify({
+			align_element_x:"left"
+		});
+		$(".div3").centify({
+			align_element_x:"right"
+		});
+		$(".div4").centify({
+			align_element_y:"top"
+		});
+		$(".div5").centify({
+			align_element_y:"bottom"
+		});
+		$(".div6").centify({
+			align_text_x:"left"
+		});
+		$(".div7").centify({
+			align_text_x:"right"
+		});
+		$(".div8").centify({
+			align_text_y:"top"
+		});
+		$(".div9").centify({
+			align_text_y:"bottom"
+		});
+	});
+</script>
+</script>
+</head>
+<body>
+	<h1>Centify -<br/>Center Everything</h1>
+	<div class="div1">
+		Default
+	</div>
+	<div class="div2">
+		[Element] Align left 
+	</div>
+	<div class="div3">
+		[Element] Align right
+	</div>
+	<div class="div4">
+		[Element] Align top
+	</div>
+	<div class="div5">
+		[Element] Align bottom
+	</div>
+	<div class="div6">
+		[Text] Align left 
+	</div>
+	<div class="div7">
+		[Text] Align right
+	</div>
+	<div class="div8">
+		[Text] Align top
+	</div>
+	<div class="div9">
+		[Text] Align bottom
+	</div>
+</body>	
+</html>
