@@ -13,12 +13,12 @@ Align left? Align center? We handle all alignments for you!:smile_cat::clap:
 3. Initialize centify (Center everything):
 ```
 $(function(){
-  $("#YouElementToAlign").centify();
+  $("#YourElementToAlign").centify();
 });
 ```
 4. Define your alignment criteria:
 ```
-$("#YouElementToAlign).centify({
+$("#YourElementToAlign).centify({
   align_element_x:"right"
 });
 ```
@@ -34,3 +34,11 @@ Parameters:
 | `align_text_x`  | Align the text horizontally  | center | left,right,center |
 | `align_text_y`  | Align the text vertically  | center | top,center,bottom |
 
+Multiple alignment:
+Multiple selectors can share the same alignment rules:
+```
+$("#YourElementToAlign,#YourElementToAlign2).centify({
+  align_element_x:"right",
+  align_element_y:"top",
+});
+```
