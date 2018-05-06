@@ -22,6 +22,8 @@ $("#YouElementToAlign).centify({
   align_element_x:"right"
 });
 ```
+5. All applications of the library can be referred to demo.html
+
 ## Documentation
 Parameters:
 
