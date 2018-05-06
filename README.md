@@ -35,7 +35,8 @@ Parameters:
 | `align_text_y`  | Align the text vertically  | center | top,center,bottom |
 
 Multiple alignment:
-Multiple selectors can share the same alignment rules:
+
+Multiple selectors can share the same alignment rules
 ```
 $("#YourElementToAlign,#YourElementToAlign2).centify({
   align_element_x:"right",
