@@ -27,8 +27,8 @@ Parameters:
 
 | Parameters | Usages | Default | Values |
 | ------------- | ------------- | ------------- | ------------- |
-| align_element_x  | Align the DOM horizontally  | center | left,right,center |
-| align_element_y  | Align the DOM vertically  | center | top,center,bottom |
-| align_text_x  | Align the text horizontally  | center | left,right,center |
-| align_text_y  | Align the text vertically  | center | top,center,bottom |
+| `align_element_x`  | Align the DOM horizontally  | center | left,right,center |
+| `align_element_y` | Align the DOM vertically  | center | top,center,bottom |
+| `align_text_x`  | Align the text horizontally  | center | left,right,center |
+| `align_text_y`  | Align the text vertically  | center | top,center,bottom |
 
